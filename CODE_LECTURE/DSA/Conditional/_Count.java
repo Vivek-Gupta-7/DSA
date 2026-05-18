@@ -6,6 +6,8 @@ public class _Count {
         int count=0;
         int rem=0;
 
+        // counts the number and print
+
         while(n!=0){
             rem=n%10;
             if(rem==7){
