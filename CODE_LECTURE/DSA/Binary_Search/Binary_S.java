@@ -14,6 +14,7 @@ public class Binary_S {
     }
 
     // return the index
+    // we have created a function/method that do the binary search and we will call this method in main program
 
     static  int binarySearch(int [] arr, int target){
         int start = 0;
