@@ -9,6 +9,7 @@ public class HCF_LCM {
         int a = in.nextInt();
         int b = in.nextInt();
         int hcf = 0;
+        //HERE WE CAN TAKE EITHER a OR b in second condition
         for(int i=1; i<=a; i++){
             if(a%i==0 && b%i==0){
                 hcf = i;
@@ -17,6 +18,8 @@ public class HCF_LCM {
             }
 
         }
+
+        // FORMULA TO CALCULATE THE LCM
         int lcm = a*b/hcf;
         System.out.println("The HCF of the numbers is "+ hcf);
         System.out.println("The LCM of the numbers is" + lcm);
