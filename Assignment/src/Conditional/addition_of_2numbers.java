@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class addition_of_2numbers {
     public static void main(String[] args) {
+
+        // CALCULATE TWO NUMBERS (ADDITION)
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the first number");
         int a = in.nextInt();
