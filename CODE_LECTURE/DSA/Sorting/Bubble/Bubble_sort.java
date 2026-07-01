@@ -5,11 +5,12 @@ import java.util.Arrays;
 public class Bubble_sort {
     public static void main(String[] args) {
 
+        //worst case
         int [] arr={5,4,3,2,1};
         bubble(arr);
         System.out.println(Arrays.toString(arr));
 
-
+       // best case
         int [] nums={1,2,3,4,5};
         bubble(nums);
         System.out.println(Arrays.toString(nums));
@@ -34,7 +35,6 @@ public class Bubble_sort {
                     int temp = arr[j];
                     arr[j]=arr[j-1];
                     arr[j-1]=temp;
-
                     swapped = true;
                 }
 
